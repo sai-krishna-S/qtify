@@ -71,13 +71,13 @@ const Search = () => {
         }}
         renderInput={(params) => (
           <TextField 
-            {...params} 
-            label="Search for songs or albums" 
-            variant="outlined" 
+            {...params}
+            placeholder="search" // ✅ matches test case requirement
+            variant="outlined"
             size="small"
             InputProps={{
               ...params.InputProps,
-              style: { backgroundColor: 'white' } // Force white background
+              style: { backgroundColor: 'white' } // ✅ white background
             }}
           />
         )}
@@ -87,4 +87,5 @@ const Search = () => {
 };
 
 export default Search;
+
 
