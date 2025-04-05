@@ -1,0 +1,28 @@
+/* src/components/Filters/Filters.module.css */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.filterButton {
+  padding: 6px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: #2b2b2b;
+}
+
+.active {
+  background-color: #34c94b;
+  border-color: #34c94b;
+  color: #121212;
+}

@@ -1,0 +1,14 @@
+/* .logo {
+    height: 34px;
+  }
+  
+  .logo img {
+    height: 100%;
+    object-fit: contain;
+  } */
+/* src/components/Logo/Logo.module.css */
+
+.logo img {
+  height: 34px;
+  object-fit: contain;
+}

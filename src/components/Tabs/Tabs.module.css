@@ -1,0 +1,33 @@
+/* .tabsContainer {
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  } */
+
+ /* src/components/Tabs/Tabs.module.css */
+ .tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabButton {
+  padding: 0.5rem 1rem;
+  background-color: #2a2a2a;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabButton:hover {
+  background-color: #3f3f3f;
+}
+
+.active {
+  background-color: #34c94b;
+  color: black;
+  font-weight: bold;
+}

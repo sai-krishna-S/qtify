@@ -1,0 +1,29 @@
+.button {
+    padding: 10px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .primary {
+    background-color: #121212;
+    color: #34C94B;
+  }
+  
+  .primary:hover {
+    transform: scale(1.05);
+  }
+  
+  .secondary {
+    background-color: transparent;
+    border: 1px solid #34C94B;
+    color: #34C94B;
+  }
+  
+  .secondary:hover {
+    background-color: rgba(52, 201, 75, 0.1);
+  }
