@@ -72,12 +72,12 @@ const Search = () => {
         renderInput={(params) => (
           <TextField 
             {...params}
-            placeholder="search" // ✅ matches test case requirement
+            placeholder="Search a album of your choice" // ✅ Matches Figma and test
             variant="outlined"
             size="small"
             InputProps={{
               ...params.InputProps,
-              style: { backgroundColor: 'white' } // ✅ white background
+              style: { backgroundColor: 'white' }
             }}
           />
         )}
